@@ -1,13 +1,23 @@
 {
   "name": "sreg",
   "version": "1.0.0",
-  "description": "",
+  "description": "切换npm镜像源工具",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "reg": "./index.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "start": "node index.js",
+    "build:mac": "pkg index.js --target=node18-macos --output=myapp",
+    "build:win": "pkg index.js --target=node18-win --output=myapp.exe"
+  },
+  "keywords": [
+    "npm",
+    "pnpm",
+    "registry",
+    "switch"
+  ],
+  "author": "GYH",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^12.1.0"
