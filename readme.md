@@ -17,10 +17,8 @@ sreg
 
 ```bash
 C:\Users\Administrator\Desktop>sreg
-当前的镜像源为: https://registry.npmjs.org/ 
-当前的镜像名称为: npm官方
-
-? 请选择镜像源: (Use arrow keys)
+当前的镜像源为: https://registry.npmjs.org/ 当前的镜像名称为: npm官方
+?请选择镜像源: (Use arrow keys) 
 > npm官方
   淘宝镜像
   腾讯镜像
