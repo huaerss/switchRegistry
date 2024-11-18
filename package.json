@@ -1,7 +1,7 @@
 {
   "name": "sreg",
-  "version": "1.0.1",
-  "description": "切换npm镜像源工具",
+  "version": "1.0.3",
+  "description": "快捷切换npm镜像源工具",
   "main": "index.js",
   "bin": {
     "sreg": "./index.js"
