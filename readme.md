@@ -7,15 +7,18 @@ pnpm install -g sreg
 
 ```
 
-## 使用
+## 使用命令
 
 ```bash
-reg
+sreg
 ```
 
-## 打包
+## 示例
 
-```bash
-pnpm build:mac # 打包mac版本
-pnpm build:win # 打包win版本
-```
+C:\Users\Administrator\Desktop>sreg
+当前的镜像源为: https://registry.npmjs.org/ 当前的镜像名称为: npm官方
+? 请选择镜像源: (Use arrow keys)
+> npm官方
+  淘宝镜像
+  腾讯镜像
+  华为镜像
