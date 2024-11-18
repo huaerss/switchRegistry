@@ -1,10 +1,10 @@
 {
   "name": "sreg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "切换npm镜像源工具",
   "main": "index.js",
   "bin": {
-    "reg": "./index.js"
+    "sreg": "./index.js"
   },
   "scripts": {
     "start": "node index.js",
