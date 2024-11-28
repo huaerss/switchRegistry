@@ -1,4 +1,4 @@
-# 快速切换npm镜像源工具 内置淘宝镜像
+# 快速切换npm镜像源 以及git代理工具
 
 ## 安装
 
@@ -10,17 +10,15 @@ pnpm install -g sreg
 ## 使用命令
 
 ```bash
-sreg
+sreg 
 ```
 
-## 示例
+## 功能
 
-```bash
-C:\Users\Administrator\Desktop>sreg
-当前的镜像源为: https://registry.npmjs.org/ 当前的镜像名称为: npm官方
-?请选择镜像源: (Use arrow keys) 
-> npm官方
-  淘宝镜像
-  腾讯镜像
-  华为镜像
- ```
+- 修改npm镜像源
+
+快速修改npm镜像源
+
+- 修改git全局配置  
+
+快速修改git代理速度增加包下载速度以及上传到代码仓库的速度 根据情况 快速修改以及删除
