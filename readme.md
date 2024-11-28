@@ -1,12 +1,5 @@
 # 快速切换npm镜像源 以及git代理工具
 
-## 安装
-
-```bash
-pnpm install -g sreg
-
-```
-
 ## 使用命令
 
 ```bash

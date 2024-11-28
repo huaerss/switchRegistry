@@ -1,7 +1,7 @@
 {
-  "name": "sreg",
-  "version": "1.0.3",
-  "description": "快捷切换npm镜像源工具",
+  "name": "switch-tool",
+  "version": "1.0.5",
+  "description": "快捷切换npm镜像源以及git代理工具",
   "main": "index.js",
   "bin": {
     "sreg": "./index.js"
@@ -15,7 +15,8 @@
     "npm",
     "pnpm",
     "registry",
-    "switch"
+    "switch",
+    "git"
   ],
   "author": "GYH",
   "license": "ISC",
